@@ -10,7 +10,7 @@ const Home = () => {
   //   words : ['Full Stack Developer' , 'Machine Learning Enthusiast' , 'Blockchain Developer'],
   //   loop : {}
   // })
-  
+
   return (
     <div
       name="home"
@@ -23,19 +23,19 @@ const Home = () => {
           </h2> */}
           <p className="font-bold text-gray-500 py-4 max-w-md text-4xl"> I'm a</p>
           <ReactTyped className="text-2xl sm:text-3xl font-bold text-white w-96"
-          strings={[
-            "Full Stack Developer",
-            "Blockchain Developer",
-            "ML Enthusiast",
-          ]}
-          typeSpeed={60}
-          backSpeed={80}
-          loop>
-        </ReactTyped>
-          <p className="text-gray-500 py-4 max-w-md">
+            strings={[
+              "Full Stack Developer",
+              "Blockchain Developer",
+              "ML Enthusiast",
+            ]}
+            typeSpeed={60}
+            backSpeed={80}
+            loop>
+          </ReactTyped>
+          <p className="text-gray-500 py-4 max-w-md leading-loose tracking-wider">
             I am a B.Tech CSE student from MANIT Bhopal.
             Currently, I love to work on web application using technologies like
-            React JS, Tailwind, Node and Solidity.
+            React JS, Tailwind, Node, and Solidity.
           </p>
 
           <div>

@@ -10,30 +10,35 @@ const Portfolio = () => {
     {
       id: 1,
       src: Sanjivini,
+      name: "Sanjeevani",
       demo : "https://treetagging.vercel.app/",
       code : "https://github.com/Programmer0909/treetagging"
     },
     {
       id: 2,
       src: HairStyle,
+      name: "HairStyle Recommender ",
       demo : "https://github.com/Programmer0909/hairstyle_recommendator",
       code : "https://github.com/Programmer0909/hairstyle_recommendator"
     },
     {
       id: 3,
       src: Weather,
+      name: "Weather App",
       demo : "https://programmer0909.github.io/weather/",
       code : "https://github.com/Programmer0909/weatherapp"
     },
     {
       id: 4,
       src: BoxOffice,
+      name: "BoxOffice App",
       demo : "https://programmer0909.github.io/movie-suggester/",
       code : "https://github.com/Programmer0909/movie-suggester"
     },
     {
       id: 5,
       src: web3,
+      name: "Crypto Transfer",
       demo : "https://basic-dapp-sigma.vercel.app/",
       code : "https://github.com/Programmer0909/basic_dapp"
     }
@@ -53,8 +58,11 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src , demo , code }) => (
+          {portfolios.map(({ id, src , name, demo , code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div className="flex justify-center p-3 font-bold text-gray-300">
+              {name} 
+            </div>
               <img
                 src={src}
                 alt=""
