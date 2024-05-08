@@ -3,6 +3,7 @@ import Weather from "../assets/portfolio/Weather.jpg";
 import BoxOffice from "../assets/portfolio/BoxOffice.jpg";
 import HairStyle from "../assets/portfolio/HairStyle.jpg";
 import Sanjivini from "../assets/portfolio/Sanjivini.jpg";
+import web3 from "../assets/portfolio/web3.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -29,6 +30,12 @@ const Portfolio = () => {
       src: BoxOffice,
       demo : "https://programmer0909.github.io/movie-suggester/",
       code : "https://github.com/Programmer0909/movie-suggester"
+    },
+    {
+      id: 5,
+      src: web3,
+      demo : "https://basic-dapp-sigma.vercel.app/",
+      code : "https://github.com/Programmer0909/basic_dapp"
     }
   ];
 
