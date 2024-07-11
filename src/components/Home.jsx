@@ -12,9 +12,9 @@ const Home = () => {
       className="h-auto w-full bg-gradient-to-b from-black via-black to-gray-800 pt-16 "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-auto px-4 md:flex-row ">
-        <div className="flex flex-col justify-center h-full pl-4">
-          <p className="font-bold text-gray-500 py-4 max-w-md text-4xl mt-16 "> I'm a</p>
-          <ReactTyped className="text-2xl sm:text-3xl font-bold text-white w-96"
+        <div className="flex flex-col justify-center h-full ">
+          <p className="font-bold text-gray-500 py-4 max-w-md text-4xl mt-16 pl-4"> I'm a</p>
+          <ReactTyped className="text-2xl sm:text-3xl font-bold text-white w-96 pl-4"
             strings={[
               "Full Stack Developer",
               "Blockchain Developer",
@@ -24,13 +24,13 @@ const Home = () => {
             backSpeed={80}
             loop>
           </ReactTyped>
-          <p className="text-gray-500 py-4 max-w-md leading-loose tracking-wider">
+          <p className="text-gray-500 py-4 max-w-md leading-loose tracking-wider pl-4">
             I am a B.Tech CSE student from MANIT Bhopal.
             Currently, I love to work on web application using technologies like
             React JS, Tailwind, Node, and Solidity.
           </p>
 
-          <div>
+          <div className="pl-4">
             <Link
               to="portfolio"
               smooth
