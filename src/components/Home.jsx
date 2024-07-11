@@ -6,22 +6,14 @@ import { Link } from "react-scroll";
 import { ReactTyped } from "react-typed";
 const Home = () => {
 
-  // const {text} = useTypewriter({
-  //   words : ['Full Stack Developer' , 'Machine Learning Enthusiast' , 'Blockchain Developer'],
-  //   loop : {}
-  // })
-
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-auto w-full bg-gradient-to-b from-black via-black to-gray-800 pt-16 "
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          {/* <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a <span>{text}</span> <Cursor/>
-          </h2> */}
-          <p className="font-bold text-gray-500 py-4 max-w-md text-4xl"> I'm a</p>
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-auto px-4 md:flex-row ">
+        <div className="flex flex-col justify-center h-full pl-4">
+          <p className="font-bold text-gray-500 py-4 max-w-md text-4xl mt-16 "> I'm a</p>
           <ReactTyped className="text-2xl sm:text-3xl font-bold text-white w-96"
             strings={[
               "Full Stack Developer",
